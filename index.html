@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script
+      async
+      src="https://cse.google.com/cse.js?cx=72d2ca21d3dbd424f"
+    ></script> -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Simple Search</title>
+  </head>
+  <body>
+    <!-- <div class="gcse-search"></div> -->
+    <!-- <div class="gcse-searchresults"></div> -->
+    <div class="container">
+      <nav id="navbar">
+        <img src="logo.svg" alt="logo" />
+        Simple Video Search Engine
+      </nav>
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Find a needle in a haystack.."/>
+        <button id="search-button"><i class="fa-solid fa-magnifying-glass" style="color: #2a8cff;"></i></button>
+      </div>
+      <div id="search-results"></div>
+
+      <div id="pagination">
+        <button id="previous-button">&larr; Previous</button>
+        <span id="page-info"></span>
+        <button id="next-button">Next &rarr;</button>
+      </div>
+
+      <div class="external-search-div">
+        <button id="external-search-btn"></button>
+      </div>
+    </div>
+  </body>
+</html>
