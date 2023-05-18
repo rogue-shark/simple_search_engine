@@ -85,6 +85,7 @@ nav img {
   margin: 0.5rem 0;
   border-radius: var(--bdr-radius-main);
   background-color: var(--bgc-main-light);
+  cursor: pointer;
 }
 
 .result img {
