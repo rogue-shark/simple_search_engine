@@ -1,5 +1,5 @@
-const apiKey = "API_KEY";
-const cxId = "CX_ID";
+const apiKey = "AIzaSyAq5m8hfOGQwFxwqUP6oaY1HM9jyIvgc-0";
+const cxId = "72d2ca21d3dbd424f";
 const searchResultsDiv = document.getElementById("search-results");
 const searchButton = document.getElementById("search-button");
 const searchInput = document.getElementById("search-input");

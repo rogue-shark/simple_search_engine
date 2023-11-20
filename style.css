@@ -20,6 +20,10 @@ p {
   padding: 0;
 }
 
+button{
+  cursor: pointer;
+}
+
 body {
   background-color: #fafafa;
   font-family: var(--font-main);
